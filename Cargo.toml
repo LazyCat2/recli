@@ -1,0 +1,11 @@
+[package]
+name = "recli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.83"
+clap = { version = "4.5.20", features = ["derive"] }
+crossterm = "0.28.1"
+rive = "1.2.0"
+tokio = {version="1.40.0", features=["rt-multi-thread"]}
